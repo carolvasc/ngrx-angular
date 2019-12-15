@@ -13,8 +13,8 @@ import {
   GetUsers,
 } from '../actions/user.actions';
 import { UserService } from '../../services/user.service';
-import { IUserHttp } from '../../models/http-models/user-http-interface';
-import { selectUserList } from '../selectors/user.selector';
+import { IUserHttp } from '../../models/http-models/user-http.interface';
+import { selectUserList } from '../selectors/user.selectors';
 
 @Injectable()
 export class UserEffects {
